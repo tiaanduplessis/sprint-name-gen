@@ -1,0 +1,55 @@
+html, body {
+    font-family: 'Freckle Face', cursive;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ff768e;
+    color: #fff;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    height: 10em;
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    color: #ff768e;
+    outline: none;
+    padding: 1em 2em;
+    font-family: inherit;
+    font-size: 1.3em;
+    border-radius: 1.4em;
+}
+
+button:hover {
+    animation: bounce 500ms infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }

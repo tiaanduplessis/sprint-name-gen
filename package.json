@@ -1,0 +1,14 @@
+{
+  "name": "sprint-name-gen",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "parcel build index.html; surge dist/ --domain sprint-name-gen.surge.sh"
+  },
+  "dependencies": {
+    "sprint-namer": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
